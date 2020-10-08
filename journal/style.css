@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gamja Flower", cursive;
+  font-size: 2rem;
+}
+body {
+  background-color: #fffff2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: #e4572e;
+  height: 10rem;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-text-large {
+  font-family: "Chelsea Market", cursive;
+  font-size: 30px;
+  padding-top: 1.8rem;
+  padding-bottom: 1.3rem;
+}
+
+.header-text-small {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.main-content-top {
+  box-shadow: 3px 3px 0 0 #e4572e;
+  border: 4px solid #050401;
+  margin: 1rem 20rem;
+  display: inline-block;
+}
+
+.main-content-bottom {
+  box-shadow: 3px 3px 0 0 #e4572e;
+  border: 4px solid #050401;
+  margin: 1rem 20rem;
+  display: inline-block;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.footer {
+  text-align: center;
+  margin: 6rem 0 10rem;
+}
+
+#Footer-top {
+  font-weight: bolder;
+}
+
+.footer-form {
+  position: relative;
+}
+
+.footer-form-name {
+  float: left;
+  margin-left: 45.5rem;
+  box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.footer-form-email {
+  float: left;
+  margin-left: 66rem;
+  margin-top: -2.9rem;
+  box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.footer-form-submit {
+  position: absolute;
+  margin-left: 87rem;
+  box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.Footer-bottom {
+  position: absolute;
+  margin: 5rem 0rem 5rem 52rem;
+}
