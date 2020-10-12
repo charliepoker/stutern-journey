@@ -22,18 +22,46 @@
       </div>
     </header>
 
-    <main class="main-content">
-      <button id="button">Add a new note</button>
+    <section class="add-note">
+      <button id="button" class="note-btn">Add a new note</button>
       <p id="counts"></p>
+    </section>
 
+    <div class="modal">
+      <div class="modal-content">
+        <!-- <span class="modal-close">&times;</span> -->
+        <form>
+          <p>Write your new note!</p>
+          <!-- <p id="alert"></p> -->
+          <div>
+            <label>Note Title</label><br />
+            <input type="text" class="form-input" id="input" />
+          </div>
+
+          <div>
+            <label>Note</label><br />
+            <textarea rows="7" class="form-input" id="text"></textarea>
+          </div>
+        </form>
+        <div class="btn-container">
+          <button id="ok">ok</button>
+          <button id="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="main-content">
       <article class="main-content-top">
         <h2>13/05/23: Spatulas</h2>
-        <p class="img1"><img src="images/spatula.gif" alt="spatulas" /></p>
-        <p>
-          Yesterday I went to the store and got some much-needed
-          <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a>
-          (What better way to say I love myself than to buy myself a spatula?)
-        </p>
+
+        <div class="article-content">
+          <p class="img1"><img src="images/spatula.gif" alt="spatulas" /></p>
+          <p>
+            Yesterday I went to the store and got some much-needed
+            <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a>
+            (What better way to say I love myself than to buy myself a spatula?)
+          </p>
+        </div>
       </article>
 
       <article class="main-content-bottom">
