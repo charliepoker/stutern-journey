@@ -42,7 +42,7 @@ function newContent() {
         <p>${formTextArea}</p>
       </article>`;
 
-  if (formInput !== "" || formTextArea !== "") {
+  if (formInput !== "" && formTextArea !== "") {
     mainContent.insertAdjacentHTML("afterbegin", content);
     closeModal();
     clearForm();
